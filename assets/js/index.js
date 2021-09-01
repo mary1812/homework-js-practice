@@ -84,11 +84,22 @@ class Book {
   }
 }
 
+class eBook extends Book {
+  constructor(author, title, year, publisher, format, number) {
+    super(author, title, year, publisher);
+    this.format = format;
+    this.number = number;
+  }
+}
+
+const firstBook = new eBook('Antoine de Saint-Exupery', 'The Little Prince', '1943', 'Rainal and Hitchcock', 'EPUB', 612)
 
 
+// 5
 
+function numbers (n) {
 
-
+}
 
 
 
