@@ -99,6 +99,21 @@ const firstBook = new eBook('Antoine de Saint-Exupery', 'The Little Prince', '19
 
 function numbers (n) {
 
+for(let i = 0; i <= n; i++){
+if(i % 3 === 0 && i % 5 === 0 ) {
+  console.log('fizzbuz')
+}
+else console.log(i)
+if(i % 3 === 0) {
+  console.log('fizz')
+}
+else console.log(i)
+
+if(i % 5 === 0) {
+  console.log('buzz')
+}
+else console.log(i)
+}
 }
 
 
