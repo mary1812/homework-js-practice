@@ -43,7 +43,7 @@ for (let i = 0; i < 25; i++) {
 function getChetnoeIndex(arr) {
   for (let i = 0; i < arr.length; i++) {
     if (i % 2 === 0) {
-      console.log(i);
+      console.log(arr[i]);
     }
   }
 }
@@ -59,7 +59,7 @@ function getChetnoeElement(arr) {
 function getNullElement(arr) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 0) {
-      console.log(arr[i]);
+      console.log(i);
     }
   }
 }
