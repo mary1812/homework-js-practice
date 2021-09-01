@@ -122,23 +122,3 @@ else console.log(i)
 
 
 
-
-
-
-
-
-
-
-// class eBook extends Book {
-//   constructor(format, number) {
-//     this.format = format;
-//     this.number = number
-//   }
-// }
-
-// const eBook = new Book(
-//   "Antoine de Saint-Exupery",
-//   "The Little Prince",
-//   "1943",
-//   "Rainal and Hitchcock", 
-// );
